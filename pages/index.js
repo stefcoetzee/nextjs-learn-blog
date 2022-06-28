@@ -18,7 +18,10 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Introductory paragraph</p>
+        <p>
+          Introductory paragraph.
+          Includes another sentence to demonstrate branch deploys on Vercel.
+        </p>
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
